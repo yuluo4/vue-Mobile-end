@@ -2,12 +2,13 @@
 ### pxtrem配置
 + 安装依赖
 ```shell
-    npm install lib-flexible –-save
-    npm install postocss-pxtorem -dev
+    npm install
+    # npm install lib-flexible –-save
+    # npm install postocss-pxtorem -dev
 ```
 + 添加meta
 ```html
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
 
 ```
 
